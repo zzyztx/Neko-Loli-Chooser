@@ -1,0 +1,22 @@
+import random
+
+neko = ["Michel", "Wyatt"]
+
+Michel = 0
+Wyatt = 0
+
+for x in range(0,100):
+    y = random.choice(neko)
+
+    if y == "Michel":
+        Michel += 1
+    else:
+        Wyatt += 1
+
+print(f"Michel was chosen {Michel} Times.")
+print(f"Wyatt was chosen {Wyatt} Times.")
+
+if Michel > Wyatt:
+    print("Michel Is the Neko Loli")
+else:
+    print("Wyatt Is the Neko Loli")
